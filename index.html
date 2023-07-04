@@ -3,70 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="home-style.css">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/ea73301412.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- HEADER -->
     <header>
-        <button class="hamb-icon">
-            <i class="bi bi-list"></i>
-        </button>
-
-        <nav>
+        <nav class="menu m-close">
+            <button class="hamb-icon">
+                <i class="fa-sharp fa-solid fa-bars" style="color: #0f0f0f;"></i>
+            </button>
             <ul class="navbar">
-                <li class="nav-item">About</li>
-                <li class="nav-item">Program</li>
-                <li class="nav-item">Join</li>
-                <li class="nav-item">Sponsor</li>
-                <li class="nav-item">News</li>
-                <li class="nav-item">CAIS</li>
+                <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                <li class="nav-item"><a href="">About</a></li>
+                <li class="nav-item"><a href="">Program</a></li>
+                <li class="nav-item"><a href="">Join</a></li>
+                <li class="nav-item"><a href="">Sponsor</a></li>
+                <li class="nav-item"><a href="">News</a></li>
+                <li class="nav-item"><a href="">CAIS</a></li>
             </ul>
         </nav>
+
+        <img src="" alt="">
     </header>
     <!-- Main -->
     <main>
-        <div class="heading">
-            <h3>Towards an integrated Digital Health Ecosystem</h3>
-            <h1>Informatic & Health Argentine Congress</h1>
+        <div class="main-container">
+            <div class="heading">
+                <h1>Informatic & Health Argentine Congress</h1>
+                <h3>Towards an integrated Digital Health Ecosystem</h3>
+            </div>
+            <article>
+                A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
+            </article>
+            <div class="date-place">
+                <h2>2023.9.6(WED) ~ 8(FRI)</h2>
+                <p>@National Technological University</p>
+            </div>
         </div>
-        <article>
-            A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.
-        </article>
-
-        <h2>2023.9.6(WED) ~ 8(FRI)</h2>
-        @National Technological University
     </main>
     <!-- Main Program -->
     <section class="main-program">
-        <h2>Main Program</h2>
+        <div class="mp-container">
+            <h2>Main Program</h2>
 
-        <ul class="program-list">
-            <li class="program-item">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-            </li>
-            <li class="program-item">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-            </li>
-            <li class="program-item">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-            </li>
-            <li class="program-item">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-            </li>
-            <li class="program-item">
-                <h3>Lecture</h3>
-                <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
-            </li>
-
+            <ul class="program-list">
+                <li class="program-item">
+                    <h3>Lecture</h3>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </li>
+                <li class="program-item">
+                    <h3>Lecture</h3>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </li>
+                <li class="program-item">
+                    <h3>Lecture</h3>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </li>
+                <li class="program-item">
+                    <h3>Lecture</h3>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </li>
+                <li class="program-item">
+                    <h3>Lecture</h3>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </li>
+            </ul>
             <button class="join-btn"> Join Congress</button>
-
-        </ul>
+        </div>
+        
     </section>
     <!-- TOPICS -->
     <section class="topics">
@@ -95,5 +102,6 @@
             </p>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,56 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-size: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    background-color: transparent;
+    margin: 1rem;
+}
+
+.menu {
+    display: none;
+}
+
+.hamb-icon {
+    background-color: transparent;
+    border: none;
+    width: 2rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    
+}
+
+.hamb-active {
+    background-color: grey;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    box-shadow: 5px 0 10px ;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+
+
